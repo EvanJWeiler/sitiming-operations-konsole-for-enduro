@@ -1,10 +1,5 @@
 import { Race, RacerStatus, CategoryWithStatus } from './Database';
-import { Results, ServerSettings } from './Schema';
-
-export interface SettingsState {
-  settings: ServerSettings;
-  isSubmitting: boolean;
-}
+import { Results } from './Schema';
 
 export interface SnackbarState {
   isOpen: boolean;

@@ -1,6 +1,5 @@
 import React from 'react';
 import DirectionsBikeIcon from '@mui/icons-material/DirectionsBike';
-import SettingsIcon from '@mui/icons-material/Settings';
 import List from '@mui/material/List';
 import ListItemButton from '@mui/material/ListItemButton';
 import ListItemText from '@mui/material/ListItemText';
@@ -14,12 +13,6 @@ const SidebarData = [
     label: 'Race Home',
     path: '/',
     icon: <DirectionsBikeIcon />,
-  },
-  {
-    key: 2,
-    label: 'Settings',
-    path: '/settings',
-    icon: <SettingsIcon />,
   },
 ];
 
